@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a55f869e-56b0-4e1b-9761-f1d4e6f04497" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/DirectBufferMemoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/GCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/GCOverheadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/GCRootDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/HelloGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/JavaHeapSpaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/MetaspaceOOMT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/PhantomReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/ReferenceQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/SoftReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/StackOverflowErrorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/StrongReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/WeakHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/choi/interview/WeakReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ABADemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ABADemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ContainerNotSafeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ContainerNotSafeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/CountDownLatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/CountDownLatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/CyclicBarrierDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/CyclicBarrierDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/MyThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/MyThreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ProdConsumer_BlockQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ProdConsumer_BlockQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ProdConsumer_TraditionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ProdConsumer_TraditionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ReadWriteLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/ReadWriteLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/RenenterLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/RenenterLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SemaphoreDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SemaphoreDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SingletonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SingletonDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SpinLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SpinLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SyncAndReentrantLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SyncAndReentrantLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SynchronousQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/SynchronousQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/choi/interview/VolatileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/choi/interview/VolatileDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +15,8 @@
     <session id="1919286766">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
@@ -54,7 +24,7 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/choi/interview/GCDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+            <state relative-caret-position="322">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -140,7 +110,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="157" />
     <option name="y" value="61" />
     <option name="width" value="1400" />
@@ -184,7 +154,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565592790611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565595139734" />
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,18 +268,19 @@
       <workItem from="1565524997223" duration="76000" />
       <workItem from="1565525173125" duration="733000" />
       <workItem from="1565531682593" duration="197000" />
-      <workItem from="1565587417016" duration="6010000" />
+      <workItem from="1565587417016" duration="7187000" />
+      <workItem from="1565600248670" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24811000" />
+    <option name="totallyTimeSpent" value="26016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.16362661" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.16577253" />
       <window_info id="Structure" order="1" sideWeight="0.5033113" side_tool="true" weight="0.16362661" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/choi/interview/GCDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        <state relative-caret-position="322">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
