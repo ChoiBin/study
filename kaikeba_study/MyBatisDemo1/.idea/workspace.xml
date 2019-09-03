@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62a2cdcc-eed5-499c-a03b-5c0dde1b41ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/.idea/MyBatisDemo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/resources/config2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/config2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/01_MyBatis_Core_Properties/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/java/com/kaikeba/util/MyTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/com/kaikeba/util/MyTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/02_MyBatis_TypeHandler/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/java/com/kaikeba/util/MyObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/java/com/kaikeba/util/MyTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/util/MyObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/com/kaikeba/util/MyTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/03_MyBatis_ObjectFactory/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/util/MyObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/util/MyTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/java/com/kaikeba/util/SimpleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/util/MyObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/util/MyTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/com/kaikeba/util/SimpleInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/04_MyBatis_plugs/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/com/kaikeba/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/com/kaikeba/serviceImpl/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/com/kaikeba/serviceImpl/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/com/kaikeba/util/Invaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/com/kaikeba/util/ProxyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/bin/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/com/kaikeba/service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/com/kaikeba/serviceImpl/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/com/kaikeba/serviceImpl/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/com/kaikeba/util/Invaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/com/kaikeba/util/ProxyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/05_MyBatis_代理模式/src/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/bin/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/bin/com/kaikeba/service/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/bin/com/kaikeba/serviceImpl/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/bin/com/kaikeba/util/Invaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/bin/com/kaikeba/util/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/bin/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/src/com/kaikeba/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/src/com/kaikeba/service/SqlSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/src/com/kaikeba/serviceImpl/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/src/com/kaikeba/util/Invaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/src/com/kaikeba/util/SqlSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/06_MyBatis_代理模式实现/src/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/util/MyObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/util/MyTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/java/com/kaikeba/util/SimpleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/util/MyObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/util/MyTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/com/kaikeba/util/SimpleInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/07_MyBatis_Mapper_#and$/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/util/MyObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/util/MyTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/util/SimpleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/util/MyObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/util/MyTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/com/kaikeba/util/SimpleInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/08_MyBatis_Mapper_resultMap/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/util/MyObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/util/MyTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/java/com/kaikeba/util/SimpleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/util/MyObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/util/MyTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/com/kaikeba/util/SimpleInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/09_MyBatis_Dynamic_Sql/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/10_MyBatis_OneToMany_1/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/11_MyBatis_OneToMany_2/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/java/com/kaikeba/beans/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/java/com/kaikeba/beans/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/java/com/kaikeba/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/java/com/kaikeba/dao/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/resources/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/resources/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/main/resources/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/src/test/java/com/kaikeba/test/TestMain_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/META-INF/maven/com.kaikeba/01_MyBatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/com/kaikeba/beans/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/com/kaikeba/beans/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/com/kaikeba/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/com/kaikeba/dao/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/com/kaikeba/dao/EmpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/com/kaikeba/dao/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/classes/myBatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatisDemo1/12_MyBatis_ManyToOne_1/target/test-classes/com/kaikeba/test/TestMain_01.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1074488369">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="16" />
+          <entry key="properties" value="2" />
+          <entry key="readme" value="2" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1418159862">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/beans/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/dao/EmpMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/resources/com/kaikeba/dao/DeptMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/resources/com/kaikeba/dao/EmpMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01_MyBatis_Core_Properties/src/main/resources/myBatis-config.xml" />
+        <option value="$PROJECT_DIR$/01_MyBatis_Core_Properties/src/test/java/com/kaikeba/test/TestMain_01.java" />
+        <option value="$PROJECT_DIR$/05_MyBatis_代理模式/bin/readme" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/Java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="157" />
+    <option name="y" value="61" />
+    <option name="width" value="1400" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyBatisDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatisDemo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566208001151" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_workplace\study\MyBatisDemo1\06_MyBatis_代理模式实现\src\com\kaikeba" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62a2cdcc-eed5-499c-a03b-5c0dde1b41ec" name="Default Changelist" comment="" />
+      <created>1565936391157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565936391157</updated>
+      <workItem from="1565936394088" duration="3007000" />
+      <workItem from="1566131837975" duration="337000" />
+      <workItem from="1566180761996" duration="2542000" />
+      <workItem from="1566184733933" duration="5000" />
+      <workItem from="1566184763869" duration="600000" />
+      <workItem from="1566203737719" duration="3097000" />
+      <workItem from="1566263523505" duration="13000" />
+      <workItem from="1566530244073" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9619000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27628756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/05_MyBatis_代理模式/src/com/kaikeba/util/Invaction.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02_MyBatis_TypeHandler/src/main/java/com/kaikeba/beans/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_MyBatis_TypeHandler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_MyBatis_Core_Properties/src/main/resources/config2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_MyBatis_Core_Properties/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_MyBatis_Core_Properties/src/main/resources/myBatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_MyBatis_Core_Properties/src/test/java/com/kaikeba/test/TestMain_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_MyBatis_代理模式实现/src/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_MyBatis_代理模式/bin/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_MyBatis_代理模式/src/com/kaikeba/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_MyBatis_代理模式/src/com/kaikeba/serviceImpl/Dog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_MyBatis_代理模式/src/com/kaikeba/serviceImpl/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_MyBatis_代理模式/src/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_MyBatis_代理模式/src/com/kaikeba/util/Invaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_MyBatis_代理模式实现/src/com/kaikeba/serviceImpl/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_MyBatis_代理模式实现/src/com/kaikeba/util/Invaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_MyBatis_代理模式实现/src/com/kaikeba/util/SqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_MyBatis_代理模式实现/src/com/kaikeba/service/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_MyBatis_代理模式实现/src/com/kaikeba/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/beans/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/java/com/kaikeba/dao/EmpMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/resources/com/kaikeba/dao/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_MyBatis_Mapper_resultMap/src/main/resources/com/kaikeba/dao/EmpMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
