@@ -22,7 +22,6 @@ class MyData{
     1.1 加入int number=0，number变量之前根本没有添加volatile关键字修饰,没有可见性
     1.2 添加了volatile，可以解决可见性问题
 2 验证volatile不保证原子性
-
     2.1 原子性是不可分割，完整性，也即某个线程正在做某个具体业务时，中间不可以被加塞或者分割。
     需要整体完成，要么同时成功，要么同时失败。
 
@@ -46,10 +45,10 @@ public class VolatileDemo {
         }
 
         //需要等待上述20个线程都计算完成后，再用main线程去的最终的结果是多少？
-//        try{TimeUnit.SECONDS.sleep(5);} catch (InterruptedException e) {e.printStackTrace();}
-        while(Thread.activeCount() > 2){
-            Thread.yield();
-        }
+        try{TimeUnit.SECONDS.sleep(5);} catch (InterruptedException e) {e.printStackTrace();}
+//        while(Thread.activeCount() > 2){
+//            Thread.yield();
+//        }
         System.out.println(Thread.currentThread().getName()+"\t finnally number value: "+myData.number);
         System.out.println(Thread.currentThread().getName()+"\t finnally number value: "+myData.atomicInteger);
     }

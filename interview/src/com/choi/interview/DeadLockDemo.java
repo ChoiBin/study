@@ -42,7 +42,7 @@ public class DeadLockDemo {
         new Thread(new HoldLockThread(lockB,lockA),"ThreadBBB").start();
 
         /*
-        * linux  ps -ef|grep xxxx    ls -l查看当前进程的命令
+        * linux  ps -ef|grep xxxx    ls -l 查看当前进程的命令
         * windows下的java运行程序，也有类似ps的查看进程的命令，但是目前我们需要查看的只是java
         *           jps = java ps      jps -l
         *           jstack

@@ -21,15 +21,16 @@ public class BlockingQueueDemo {
 //        List list = null;
         BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<>(3);
 //        往阻塞队列添加元素
-        //1 抛异常
+//       // 1 抛异常
 //        System.out.println(blockingQueue.add("a"));
 //        System.out.println(blockingQueue.add("b"));
 //        System.out.println(blockingQueue.add("c"));
-//
-////        从阻塞队列取元素
+//        System.out.println(blockingQueue.add("c"));
+//        从阻塞队列取元素
 //        System.out.println(blockingQueue.element());
 //
 //        System.out.println(blockingQueue.remove());
+//        System.out.println( blockingQueue.size());
 //        System.out.println(blockingQueue.remove());
 
         //2 返回布尔类型
@@ -39,21 +40,20 @@ public class BlockingQueueDemo {
 //        System.out.println(blockingQueue.offer("e")); //满了以后 会返回false
 //
 //        System.out.println(blockingQueue.peek());
+//        System.out.println(blockingQueue.poll());
+//        System.out.println(blockingQueue.poll());
+//        System.out.println(blockingQueue.poll());
+//        System.out.println(blockingQueue.poll());
+
+//        //3 阻塞
+        blockingQueue.put("a");
+        blockingQueue.put("a");
+        blockingQueue.put("a");
+        blockingQueue.put("a");
 //
-//        System.out.println(blockingQueue.poll());
-//        System.out.println(blockingQueue.poll());
-//        System.out.println(blockingQueue.poll());
-//        System.out.println(blockingQueue.poll());
-
-        //3 阻塞
-        blockingQueue.put("a");
-        blockingQueue.put("a");
-        blockingQueue.put("a");
-       // blockingQueue.put("a");
-
-        blockingQueue.take();
-        blockingQueue.take();
-        blockingQueue.take();
+//        blockingQueue.take();
+//        blockingQueue.take();
+//        blockingQueue.take();
 
     }
 }

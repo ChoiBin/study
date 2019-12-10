@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javassm:war">
+    <output-path>$PROJECT_DIR$/javassm/target</output-path>
+    <root id="archive" name="javassm-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="javassm:war exploded" />
+    </root>
+  </artifact>
+</component>

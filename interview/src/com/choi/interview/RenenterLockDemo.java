@@ -35,5 +35,4 @@ public class RenenterLockDemo {
             }
         },"t2").start();
     }
-
 }
