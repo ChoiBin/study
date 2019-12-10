@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/condition/condition.iml" filepath="$PROJECT_DIR$/condition/condition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interceptor/interceptor.iml" filepath="$PROJECT_DIR$/interceptor/interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javassm/javassm.iml" filepath="$PROJECT_DIR$/javassm/javassm.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbctemplate/jdbctemplate.iml" filepath="$PROJECT_DIR$/jdbctemplate/jdbctemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbctemplate-2/jdbctemplate-2.iml" filepath="$PROJECT_DIR$/jdbctemplate-2/jdbctemplate-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa/jpa.iml" filepath="$PROJECT_DIR$/jpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json/json.iml" filepath="$PROJECT_DIR$/json/json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis2/mybatis2.iml" filepath="$PROJECT_DIR$/mybatis2/mybatis2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mystarter/mystarter.iml" filepath="$PROJECT_DIR$/mystarter/mystarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paramconverter/paramconverter.iml" filepath="$PROJECT_DIR$/paramconverter/paramconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pathmapping/pathmapping.iml" filepath="$PROJECT_DIR$/pathmapping/pathmapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/properties/properties.iml" filepath="$PROJECT_DIR$/properties/properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usemystarter/usemystarter.iml" filepath="$PROJECT_DIR$/usemystarter/usemystarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml/xml.iml" filepath="$PROJECT_DIR$/xml/xml.iml" />
     </modules>
   </component>
 </project>

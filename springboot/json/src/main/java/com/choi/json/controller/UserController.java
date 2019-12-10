@@ -28,7 +28,6 @@ public class UserController {
             users.add(user);
             user.setBirthDay(new Date());
         }
-
         return users;
     }
 

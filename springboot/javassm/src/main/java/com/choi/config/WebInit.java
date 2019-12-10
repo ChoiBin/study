@@ -12,7 +12,6 @@ import javax.servlet.ServletRegistration;
  * web.xml配置类
  */
 public class WebInit implements WebApplicationInitializer {
-    @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         //加载spring mvc配置类
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
@@ -23,6 +22,5 @@ public class WebInit implements WebApplicationInitializer {
         springmvc.addMapping("/");
         //给dispatchServlet添加启动时机
         springmvc.setLoadOnStartup(1);
-
     }
 }

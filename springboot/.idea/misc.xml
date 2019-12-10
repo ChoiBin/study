@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/javassm" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -7,7 +10,25 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/javassm/pom.xml" />
+        <option value="$PROJECT_DIR$/mystarter/pom.xml" />
+        <option value="$PROJECT_DIR$/usemystarter/pom.xml" />
+        <option value="$PROJECT_DIR$/properties/pom.xml" />
+        <option value="$PROJECT_DIR$/condition/pom.xml" />
+        <option value="$PROJECT_DIR$/json/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/xml/pom.xml" />
+        <option value="$PROJECT_DIR$/interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/pathmapping/pom.xml" />
+        <option value="$PROJECT_DIR$/paramconverter/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbctemplate-2/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis2/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

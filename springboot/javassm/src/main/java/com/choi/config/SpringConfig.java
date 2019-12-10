@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
  * 除了@Controller注解
  */
 @Configuration
-@ComponentScan(basePackages = "com.choi",useDefaultFilters = true,
-        excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION,classes = Controller.class)})
+@ComponentScan(basePackages = "com.choi",useDefaultFilters = true,excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION,classes = Controller.class)})
 public class SpringConfig {
+
 }
